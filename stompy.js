@@ -20,7 +20,7 @@ right: new sprite( 0,  0, 30, 38),
 leftJump: new sprite( 0, 38 ,30, 38),
 rightJump: new sprite( 30, 0, 30, 38),
 jet: new sprite(60, 0, 15, 15),
-enemy: new sprite(58, 17, 23, 17)
+enemy: new sprite(40, 10, 20, 10)
 };
 var facingRight = true;
 var platforms = [];
