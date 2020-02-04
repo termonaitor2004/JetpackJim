@@ -62,7 +62,7 @@ function init() {
 	platforms.push(new entity(100, 100, 150, 50));
 	platforms.push(new entity(200, 400, 50, 50));
 	platforms.push(new entity(400, 200, 50, 50));
-    platforms.push(new entity(50, 100, 50, 50));
+    	platforms.push(new entity(50, 100, 50, 50));
 	platforms.push(new entity(450, 250, 50, 50));
 	platforms.push(new entity(450, 250, 50, 50));
 	platforms.push(new entity(350, 250, 50, 50));
@@ -111,7 +111,7 @@ target.setMidY(platform.getTop() - platform.halfHeight);
 }	
 
 function moveEnemy() {
-score += 999;
+score += 10;
 	if(score > highScore){
 	highScore = score;
 	localStorage.setItem('high', highScore);
