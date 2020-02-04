@@ -111,7 +111,7 @@ target.setMidY(platform.getTop() - platform.halfHeight);
 }	
 
 function moveEnemy() {
-score += 10;
+score += 999;
 	if(score > highScore){
 	highScore = score;
 	localStorage.setItem('high', highScore);
