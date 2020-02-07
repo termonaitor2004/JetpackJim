@@ -11,7 +11,12 @@ var inputs = {
     left: false,
     up: false,
     right: false,
-    down: false
+    down: false,
+	w: false,
+	a: false,
+	s: false,
+	d: false
+	
 };
 var spritesheet = new Image();
 var sprites = {
